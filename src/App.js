@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // ✅ Changed here
 import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -8,7 +8,6 @@ import TopBrandsPage from "./pages/TopBrandsPage";
 import PremiumFitsPage from "./pages/PremiumFitsPage";
 import Sale from "./components/Sale";
 import SalePage from "./pages/SalePage";
-
 import Sale2 from "./components/Sale2";
 import TraditionalPage from "./pages/TraditionalPage";
 import ClientSection from "./components/ClientSection";
@@ -29,19 +28,18 @@ import CustomerCare from "./pages/CustomerCare";
 import RedeemCoupon from "./pages/RedeemCoupon";
 import CartPage from "./pages/CartPage";
 import ShopPage from "./pages/ShopPage";
-import DropdownCategoryPage from "./pages/DropdownCategoryPage"
-
-import { CartProvider } from "./context/Context";
+import DropdownCategoryPage from "./pages/DropdownCategoryPage";
 import ProductDetail from "./pages/ProductDetail";
 import Checkout from "./pages/Checkout";
 import ProductDetailPage from "./pages/ProductDetailPage";
 
-
+import { CartProvider } from "./context/Context";
 
 function App() {
   return (
     <CartProvider>
-      <Router  basename="/">
+      {/* ✅ HashRouter fixes refresh/404 issues on GitHub Pages */}
+      <Router>
         <Navbar />
         <Routes>
           <Route
@@ -74,18 +72,13 @@ function App() {
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/sale" element={<SalePage />} />
           <Route path="/traditional" element={<TraditionalPage />} />
-            <Route path="/best-picks" element={<BestPicksPage />} />
-  <Route path="/top-brands" element={<TopBrandsPage />} />
-  <Route path="/premium-fits" element={<PremiumFitsPage />} />
-<Route path="/category/:categoryName" element={<DropdownCategoryPage />} />
-<Route path="/product/:id" element={<ProductDetail />} />
-<Route path="/checkout" element={<Checkout />} />
-<Route path="/product/:id" element={<ProductDetailPage />} />
-
-
-
-
-
+          <Route path="/best-picks" element={<BestPicksPage />} />
+          <Route path="/top-brands" element={<TopBrandsPage />} />
+          <Route path="/premium-fits" element={<PremiumFitsPage />} />
+          <Route path="/category/:categoryName" element={<DropdownCategoryPage />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/product/:id" element={<ProductDetailPage />} />
         </Routes>
       </Router>
     </CartProvider>
