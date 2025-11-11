@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/binaryecommerce/static/css/main.eaad1464.css",
+    "main.js": "/binaryecommerce/static/js/main.80c83f0d.js",
+    "static/js/453.206a9378.chunk.js": "/binaryecommerce/static/js/453.206a9378.chunk.js",
+    "static/media/modell5.jpg": "/binaryecommerce/static/media/modell5.a3d12bd6d2530a7c54fb.jpg",
+    "static/media/modell3.jpg": "/binaryecommerce/static/media/modell3.2046da6dd23d45048cac.jpg",
+    "static/media/model0.jpg": "/binaryecommerce/static/media/model0.89a37613f60ca65611f3.jpg",
+    "static/media/cares3.png": "/binaryecommerce/static/media/cares3.53291ce24a51e6a6ad79.png",
+    "static/media/model9.jpg": "/binaryecommerce/static/media/model9.b1f763b1a7684c1defb0.jpg",
+    "static/media/model3.jpg": "/binaryecommerce/static/media/model3.bf5c6a47cf545f0204ff.jpg",
+    "static/media/model2.jpg": "/binaryecommerce/static/media/model2.8ae67f841f1ac5fd0e66.jpg",
+    "static/media/model8.jpg": "/binaryecommerce/static/media/model8.759f092c8da99c95e5df.jpg",
+    "static/media/modell4.jpg": "/binaryecommerce/static/media/modell4.b5b7232ffe13939d1b35.jpg",
+    "static/media/cares1.jpg": "/binaryecommerce/static/media/cares1.991c7a572ccdb29e2d81.jpg",
+    "index.html": "/binaryecommerce/index.html",
+    "main.eaad1464.css.map": "/binaryecommerce/static/css/main.eaad1464.css.map",
+    "main.80c83f0d.js.map": "/binaryecommerce/static/js/main.80c83f0d.js.map",
+    "453.206a9378.chunk.js.map": "/binaryecommerce/static/js/453.206a9378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaad1464.css",
+    "static/js/main.80c83f0d.js"
+  ]
+}
