@@ -41,7 +41,7 @@ import ProductDetailPage from "./pages/ProductDetailPage";
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router  basename="/">
         <Navbar />
         <Routes>
           <Route
