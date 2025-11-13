@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🛍️ Binary Closet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and stylish **React.js E-Commerce website** built with **Tailwind CSS**, **React Router**, and **Context API**.  
+Binary Closet offers a smooth shopping experience featuring dynamic product pages, cart functionality, and beautiful UI animations.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+👉 **Visit Now:** [https://sheeturao29.github.io/binaryecommerce](https://sheeturao29.github.io/binaryecommerce)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Preview
 
-### `npm test`
+*(You can add a screenshot of your website later here)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🧭 Fully responsive modern UI with Tailwind CSS  
+- 🛒 Add to Cart, Checkout, and Payment simulation  
+- 🧠 Context API for global state management  
+- 🧍‍♀️ Category-wise Product Listing  
+- 📱 Smooth navigation with React Router DOM  
+- 🎨 Eye-catching animations and banners  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Tech Stack
 
-### `npm run eject`
+- **Frontend:** React.js, Tailwind CSS  
+- **State Management:** React Context API  
+- **Routing:** React Router DOM  
+- **Build Tool:** Create React App  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/sheeturao29/binaryecommerce.git
+Move into the folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd binaryecommerce
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the app:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Then open http://localhost:3000
+ in your browser.
+ 📦 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To build and deploy on GitHub Pages:
 
-### Advanced Configuration
+npm run build
+npm run deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👩‍💻 Author
 
-### Deployment
+Sheetal Yadav
+📧 sheetalrao2003@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
