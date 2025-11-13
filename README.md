@@ -70,7 +70,5 @@ npm run deploy
 
 Sheetal Yadav
 📧 sheetalrao2003@gmail.com
-💼 LinkedIn
 
-💻 GitHub
 
